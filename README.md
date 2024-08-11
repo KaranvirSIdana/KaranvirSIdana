@@ -1,6 +1,5 @@
 - 👋 Hi, I’m @KaranvirSIdana
-- 👀 I’m interested in Machine Learning & Data Sciences
-- 🌱 I’m currently learning Deep Learning Algorithms
+- 👀 I’m a seasoned Data Scientist
 - 💞️ I’m looking to collaborate on Deep Learning & Machine Learning Projects
 - 📫 You can reach out to me @ karanvirsingh46@gmail.com
 
