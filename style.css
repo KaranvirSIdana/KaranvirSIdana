@@ -94,7 +94,7 @@ section h2 {
     margin-bottom: 10px;
 }
 
-footer {
+#contact, footer {
     background-color: #333;
     color: #fff;
     text-align: center;
