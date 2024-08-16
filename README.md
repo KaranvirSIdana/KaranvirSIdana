@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @KaranvirSIdana
 - 👀 I’m a seasoned Data Scientist
 - 💞️ I’m looking to collaborate on Deep Learning & Machine Learning Projects
-- 📫 You can reach out to me @ karanvirsingh46@gmail.com
+- 📫 You can reach out to me @ contactkaranvirsidana@gmail.com
 
 <!---
 KaranvirSIdana/KaranvirSIdana is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
