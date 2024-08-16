@@ -4,94 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mushi Mushi</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
+      <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
         <nav>
-            <h1>My Portfolio</h1>
-            <ul>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#current-book">Current Book</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+            <h1>KARANVIR SIDANA</h1>
         </nav>
     </header>
 
-    <section id="hero">
-        <h2>Welcome to My Portfolio</h2>
-        <p>Data Scientist & Machine Learning Enthusiast</p>
-        <a href="#projects" class="btn">View My Work</a>
-    </section>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>A brief biography highlighting your experience, education, and what inspires you in Data Science.</p>
+            <p><strong>Skills:</strong> Python, R, Machine Learning, Data Visualization</p>
+        </section>
 
-    <section id="projects">
-        <h2>Featured Projects</h2>
-        <div class="project">
-            <h3>Project Title 1</h3>
-            <p>A brief description of the project goes here.</p>
-            <p><strong>Technologies:</strong> Python, TensorFlow, scikit-learn</p>
-            <a href="#" class="btn">View Project</a>
-        </div>
-        <div class="project">
-            <h3>Project Title 2</h3>
-            <p>A brief description of the project goes here.</p>
-            <p><strong>Technologies:</strong> Python, TensorFlow, scikit-learn</p>
-            <a href="#" class="btn">View Project</a>
-        </div>
-    </section>
-
-    <section id="blog">
-        <h2>Latest Blog Posts</h2>
-        <div class="blog-post">
-            <h3>Blog Post Title 1</h3>
-            <p>An excerpt of the blog post goes here...</p>
-            <a href="#" class="btn">Read More</a>
-        </div>
-        <div class="blog-post">
-            <h3>Blog Post Title 2</h3>
-            <p>An excerpt of the blog post goes here...</p>
-            <a href="#" class="btn">Read More</a>
-        </div>
-    </section>
-
-    <section id="current-book">
-        <h2>What I’m Reading</h2>
-        <img src="book-cover.jpg" alt="Current Book Cover">
-        <p><strong>Title:</strong> The Book Title</p>
-        <p><strong>Thoughts:</strong> A brief note about why you're reading it and your thoughts so far.</p>
-    </section>
-
-    <section id="about">
-        <h2>About Me</h2>
-        <p>A brief biography highlighting your experience, education, and what inspires you in Data Science.</p>
-        <p><strong>Skills:</strong> Python, R, Machine Learning, Data Visualization</p>
-    </section>
-
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            
-            <button type="submit" class="btn">Send</button>
-        </form>
-        <div class="social">
-            <a href="#">LinkedIn</a>
-            <a href="#">GitHub</a>
-            <a href="#">Twitter</a>
-        </div>
-    </section>
+        <section id="tiles">
+            <div class="tile" id="projects">
+                <a href="projects.html">
+                    <h2>Projects</h2>
+                </a>
+            </div>
+            <div id="bottom-tiles">
+                <div class="tile-small" id="blog">
+                    <a href="blog.html">
+                        <h2>Blog</h2>
+                    </a>
+                </div>
+                <div class="tile-small" id="current-book">
+                    <a href="current-book.html">
+                        <h2>Current Book</h2>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <footer>
-        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+        <section id="contact">   
+            <div class="social">
+                <a href="#">LinkedIn</a>
+                <a href="#">GitHub</a>
+                <a href="#">Twitter</a>
+            </div>
+        </section>
+        <p>&copy; 2024 All rights reserved.</p>
     </footer>
+      <script src="script.js"></script> <!-- Include the JS file here -->
+
 </body>
+
 </html>
