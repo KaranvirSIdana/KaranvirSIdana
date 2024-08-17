@@ -3,25 +3,27 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-     background-color: #000; /* Dark background */
-
+    background-color: #000; /* Dark background */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body fills at least the viewport height */
+    position: relative;
+    overflow: hidden;
 }
 
 header {
     color: #fff;
     padding: 10px 0;
     text-align: center;
-    z-index=2
-  
+    z-index: 2;
 }
 
 header h1 {
     margin: 0;
     font-size: 2rem;
-      color: rgba(255, 255, 255, 255); /* Light color for stars */
-      text-shadow: 
+    color: rgba(255, 255, 255, 255); /* Light color for stars */
+    text-shadow: 
         0 0 10px #f0f;    
-
 }
 
 main {
@@ -29,6 +31,7 @@ main {
     max-width: 1200px;
     margin: 40px auto;
     padding: 0 20px;
+    flex: 1; /* Make main content grow and fill the available space */
 }
 
 #about {
@@ -96,7 +99,9 @@ footer {
     color: #fff;
     padding: 20px 0;
     text-align: center;
-    margin-top: 40px;
+    margin-top: auto; /* Push footer to the bottom of the page */
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
 }
 
 #contact {
@@ -152,15 +157,6 @@ footer {
     text-decoration: none;
 }
 
-body {
-    position: relative;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    width: 100vw;
-}
-
 .constant {
     position: absolute;
     font-size: 2rem;
@@ -170,7 +166,7 @@ body {
     user-select: none;
     transform-origin: -50% -50%; /* Adjust origin for rotation */
     animation: moveAlongPath infinite linear;
-   z-index:-1
+    z-index: -1;
 }
 
 @keyframes moveAlongPath {
